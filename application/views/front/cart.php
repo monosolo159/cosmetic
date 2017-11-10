@@ -18,7 +18,7 @@
             <div class="table-responsive">
               <table class="table table-bordered table-striped table-hover">
                 <tr>
-                  <td >รหิสสินค้า</td>
+                  <td >รหัสสินค้า</td>
                   <td >ชื่อสินค้า</td>
                   <td >ราคา</td>
                   <td >จำนวน</td>

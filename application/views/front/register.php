@@ -15,10 +15,10 @@
           <div class="row">
 
               <div class="form-group">
-<p>*1. ระบุ username แล้วคลิก "ตรวจสอบ"</p>
+<p><font style="color:#ff0000">*</font>1. ระบุ username แล้วคลิก "ตรวจสอบ"</p>
 
-<p>*2. ระบุข้อมูลในช่องอื่นๆให้ครบถ้วน แล้วคลิก "สมัครสมาชิก"</p>
-<p>*ต้อง "ตรวจสอบ" ก่อนเท่านั้นถึงจะทำขั้นตอนอื่นๆได้</p>
+<p><font style="color:#ff0000">*</font>2. ระบุข้อมูลในช่องอื่นๆให้ครบถ้วน แล้วคลิก "สมัครสมาชิก"</p>
+<p><font style="color:#ff0000">*</font>ต้อง "ตรวจสอบ" ก่อนเท่านั้นถึงจะทำขั้นตอนอื่นๆได้</p>
               </div>
 
           </div>
@@ -28,7 +28,7 @@
               <div class="form-group">
 
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <label for="member_username"><font style="color:#ff0000">*</font>Username</label>
+                      <label for="member_username">Username<font style="color:#ff0000">*</font></label>
                       <div class="form-line">
                         <?php if (empty($checkUser[0]['member_id'])): ?>
                           <?php if (empty($new_member['member_username'])): ?>
@@ -57,13 +57,13 @@
             <div class="form-group">
 
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <label for="member_password"><font style="color:#ff0000">*</font>Password</label>
+                    <label for="member_password">Password<font style="color:#ff0000">*</font></label>
                     <div class="form-line">
                       <input type="password" name="member_password" class="form-control" required placeholder="Password">
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <label for="member_password_confirm"><font style="color:#ff0000">*</font>Password อีกครั้ง</label>
+                    <label for="member_password_confirm">Password อีกครั้ง<font style="color:#ff0000">*</font></label>
                     <div class="form-line">
                       <input type="password" name="member_password_confirm" class="form-control" required placeholder="password อีกครั้ง">
                     </div>
@@ -76,13 +76,13 @@
               <div class="form-group">
 
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <label for="member_fname"><font style="color:#ff0000">*</font>ชื่อ</label>
+                      <label for="member_fname">ชื่อ<font style="color:#ff0000">*</font></label>
                       <div class="form-line">
                         <input type="text" name="member_fname" class="form-control" maxlength="100" required placeholder="ชื่อ">
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <label for="member_lname"><font style="color:#ff0000">*</font>นามสกุล</label>
+                      <label for="member_lname">นามสกุล<font style="color:#ff0000">*</font></label>
                       <div class="form-line">
                         <input type="text" name="member_lname" class="form-control" maxlength="100" required placeholder="นามสกุล">
                       </div>
@@ -94,13 +94,13 @@
               <div class="form-group">
 
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <label for="member_address"><font style="color:#ff0000">*</font>ที่อยู่</label>
+                      <label for="member_address">ที่อยู่<font style="color:#ff0000">*</font></label>
                       <div class="form-line">
                         <textarea name="member_address" cols="30" rows="5" class="form-control no-resize" maxlength="500" placeholder="ที่อยู่" required></textarea>
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <label for="member_birth_date"><font style="color:#ff0000">*</font>วันเดือนปีเกิด</label>
+                      <label for="member_birth_date">วันเดือนปีเกิด<font style="color:#ff0000">*</font></label>
                       <div class="form-line">
                         <input type="text" name="member_birth_date" class="datepicker form-control" maxlength="10" required placeholder="วันเดือนปีเกิด 2017/05/30">
                       </div>
@@ -112,7 +112,7 @@
               <div class="form-group">
 
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <label for="province_id"><font style="color:#ff0000">*</font>จังหวัด</label>
+                      <label for="province_id">จังหวัด<font style="color:#ff0000">*</font></label>
                       <div class="form-line">
                         <select name="province_id" class="form-control show-tick" required>
                           <option value="">-- จังหวัด --</option>
@@ -123,7 +123,7 @@
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <label for="member_zipcode"><font style="color:#ff0000">*</font>รหัสไปรษณีย์</label>
+                      <label for="member_zipcode">รหัสไปรษณีย์<font style="color:#ff0000">*</font></label>
                       <div class="form-line">
                         <input type="text" name="member_zipcode" class="form-control" maxlength="5" required placeholder="รหัสไปรษณีย์">
                       </div>
@@ -135,13 +135,13 @@
               <div class="form-group">
 
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <label for="member_phone"><font style="color:#ff0000">*</font>เบอร์โทร</label>
+                      <label for="member_phone">เบอร์โทร<font style="color:#ff0000">*</font></label>
                       <div class="form-line">
                         <input type="text" name="member_phone" class="form-control" required placeholder="เบอร์โทร">
                       </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      <label for="member_email"><font style="color:#ff0000">*</font>อีเมล</label>
+                      <label for="member_email">อีเมล<font style="color:#ff0000">*</font></label>
                       <div class="form-line">
                         <input type="text" name="member_email" class="form-control" required placeholder="อีเมล">
                       </div>
